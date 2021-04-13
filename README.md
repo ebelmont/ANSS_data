@@ -1,3 +1,5 @@
+# Data related to the Adams-Novikov spectral sequence at p=3
+
 The `data/` folder of this repository contains the output of Guozhen Wang's
 `MinimalResolution` program, as modified by me to run at p = 3. The program
 computes the algebraic Novikov spectral sequence converging to the
@@ -15,11 +17,17 @@ Specifically, this data came from running the code
 Information about multiplication by p and α<sub>1</sub> can be read fairly
 straightforwardly from the files `185_BPAANSS_a0.txt` and `185_BPAANSS_h0.txt`,
 respectively. Names like `v0^2[2-5]` denote specific generators in a minimal
-resolution. However, it is less obvious how to interpret the information
-about beta multiplication; the purpose of this readme is to document how to
-do that, and the process is formalized in the python code in `beta.py`. If you
-just want to look up specific multiplications, read the next section for a
-brief explanation of how to run that code.
+resolution; they are illustrated in the chart `anss_E2_158.pdf` in this repository.
+
+<b>Key for reading the chart:</b> Blue classes are β<sub>1</sub>-divisible,
+brown lines are α<sub>1</sub> multiplication, dashed lines are <α<sub>1</sub>, α<sub>1</sub>, ->
+brackets, and concentric circles indicate 3-divisibility.
+
+It is less obvious how to interpret the information about beta multiplication;
+the purpose of the rest of this readme is to document how to do that, and the
+process is formalized in the python code in `beta.py`. If you just want to look
+up specific multiplications, read the next section for a brief explanation of
+how to run that code.
 
 
 ### How to use `beta.py` to view beta (and other) multiplications
