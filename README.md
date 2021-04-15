@@ -61,7 +61,8 @@ Available multiplications are `three`, `alpha1`, `beta1`, `beta2`, `beta33`,
 `beta4`, `beta5`, and `beta63`.
 
 To parse files from your own run of Guozhen's program, use
-`ANSSData(file_prefix)` where e.g. `file_prefix + "_BPBocSS_table.txt"` is a
+`ANSSData(file_prefix)` where `file_prefix` is a string such that
+e.g. `file_prefix + "_BPBocSS_table.txt"` is a
 valid (relative) path to your output files.
 
 
