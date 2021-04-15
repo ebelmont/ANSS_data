@@ -15,7 +15,7 @@ indicate 3-divisibility.
 
 <b>Data files:</b>
 The files in `data/` came from running the code
-[here](https://github.com/ebelmont/MinimalResolution/commit/8199ceb1a14c397348daa0afb36f5ef0eb28ab55) as follows:
+[here](https://github.com/ebelmont/MinimalResolution/tree/e8a54826088465f7206068d14af819323653e8ce) as follows:
 
 ```
 ./mr_st 185 90
