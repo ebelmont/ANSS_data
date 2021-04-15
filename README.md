@@ -35,6 +35,10 @@ process is formalized in the python code in `beta.py`. If you just want to look
 up specific multiplications, read the next section for a brief explanation of
 how to run that code.
 
+If you have issues running the code, or have other questions/ comments related
+to this, I'd love to hear from you-- my email address is my github username
+at northwestern.edu.
+
 
 ### How to use `beta.py` to view beta (and other) multiplications
 I'll assume you've cloned this repository and started a python interpreter in
