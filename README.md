@@ -1,10 +1,17 @@
 # Data related to the Adams-Novikov spectral sequence at p=3
 
 This repository contains miscellaneous documentation, charts, and data related
-to Guozhen Wang's `MinimalResolution` program, as modified by me to run at p =
-3. The program computes the algebraic Novikov spectral sequence converging to the
+to [Guozhen Wang's `MinimalResolution` program](https://github.com/pouiyter/MinimalResolution),
+as [modified by me](https://github.com/ebelmont/MinimalResolution) to run at p = 3.
+The program computes the algebraic Novikov spectral sequence converging to the
 E<sub>2</sub> page of the Adams-Novikov spectral sequence for the sphere
 through internal degree 185, including multiplicative information.
+
+<b>Key for reading the chart `anss_E2_158.pdf`:</b> This depicts the E<sub>2</sub> page
+of the Adams-Novikov spectral sequence for the sphere at p=3. Blue dots denote
+β<sub>1</sub>-divisible classes, brown lines denote α<sub>1</sub> multiplication, dashed
+gray lines denote <α<sub>1</sub>, α<sub>1</sub>, -> brackets, and concentric circles
+indicate 3-divisibility.
 
 <b>Data files:</b>
 The files in `data/` came from running the code
@@ -15,13 +22,6 @@ The files in `data/` came from running the code
 ./BPtab 185
 ./mr_BP 185 40
 ```
-
-<b>Key for reading the chart `anss_E2_158.pdf`:</b> This depicts the E<sub>2</sub> page
-of the Adams-Novikov spectral sequence for the sphere at p=3. Blue dots denote
-β<sub>1</sub>-divisible classes, brown lines denote α<sub>1</sub> multiplication, dashed
-gray lines denote <α<sub>1</sub>, α<sub>1</sub>, -> brackets, and concentric circles
-indicate 3-divisibility.
-
 
 <b>Interpreting the data files:</b>
 Information about multiplication by p and α<sub>1</sub> can be read fairly
