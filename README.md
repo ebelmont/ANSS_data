@@ -4,8 +4,8 @@ This repository contains miscellaneous documentation, charts, and data related
 to [Guozhen Wang's `MinimalResolution` program](https://github.com/pouiyter/MinimalResolution),
 as [modified by me](https://github.com/ebelmont/MinimalResolution) to run at p = 3.
 The program computes the algebraic Novikov spectral sequence converging to the
-E<sub>2</sub> page of the Adams-Novikov spectral sequence for the sphere
-through internal degree 185, including multiplicative information.
+E<sub>2</sub> page of the Adams-Novikov spectral sequence for the sphere,
+including multiplicative information.
 
 <b>Key for reading the chart `anss_E2_158.pdf`:</b> This depicts the E<sub>2</sub> page
 of the Adams-Novikov spectral sequence for the sphere at p=3. Blue dots denote
@@ -22,6 +22,8 @@ The files in `data/` came from running the code
 ./BPtab 185
 ./mr_BP 185 40
 ```
+
+This computes the ANSS E<sub>2</sub> page through internal degree 185.
 
 <b>Interpreting the data files:</b>
 Information about multiplication by p and α<sub>1</sub> can be read fairly
