@@ -13,6 +13,17 @@ of the Adams-Novikov spectral sequence for the sphere at p=3. Blue dots denote
 gray lines denote <α<sub>1</sub>, α<sub>1</sub>, -> brackets, and concentric circles
 indicate 3-divisibility.
 
+Higher differentials are complete through the 108 stem, and are
+inferred from the homotopy groups computed in the green book
+(Table A3.4). When a differential has a source or target of dimension > 1,
+in general we do not claim to specify which linear combination
+is involved. (Similarly, we do not attempt to indicate whether a differential
+hits a generator, or 2 times the generator.)
+
+The differentials beyond the 108 stem are just the easy differentials
+propagated via β<sub>1</sub>-multiplications. Propagating other differentials,
+as well as determining new families of differentials, is work in progress.
+
 <b>Data files:</b>
 The files in `data/` came from running the code
 [here](https://github.com/ebelmont/MinimalResolution/tree/e8a54826088465f7206068d14af819323653e8ce) as follows:
