@@ -22,6 +22,7 @@ class ANSSData(object):
         # permanent cycles in the Bockstein spectral sequence (so integral
         # classes, but Bockstein names)
         self.boc_a0table = self.parse_mult(self.file_prefix + "_BPBocSS_a0.txt")
+        self.boc_h0table = self.parse_mult(self.file_prefix + "_BPBocSS_h0.txt")
         # The rest of these are straightforward multiplication tables
         self.a0table = self.parse_mult(self.file_prefix + "_BPAANSS_a0.txt")
         self.h0table = self.parse_mult(self.file_prefix + "_BPAANSS_h0.txt")
