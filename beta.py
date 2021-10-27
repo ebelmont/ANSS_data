@@ -249,8 +249,15 @@ class ANSSData(object):
             return rtn
         return elt.map(lambda s : self.beta_n(n, s))
 
-    def beta1(self, elt):
-        return self.beta_n("1", elt)
+    def beta1(self, elt, n=1):
+        if n == 1:
+            return self.beta_n("1", elt)
+        else:
+            return self.beta1(self.beta1(elt),n-1)
+
+
+
+
     def beta2(self, elt):
         return self.beta_n("2", elt)
     def beta33(self, elt):
@@ -265,6 +272,6 @@ class ANSSData(object):
     def in_deg(self, x, y):
         return [i for i,r in self.deg_table.items() if r['s'] == x and r['f'] == y]
 
-
-
+    def show_deg(self, name):
+        return (self.deg_table[name]['s'], self.deg_table[name]['f'], self.deg_table[name]['nov'])
 

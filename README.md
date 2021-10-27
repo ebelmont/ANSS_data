@@ -1,4 +1,4 @@
-# Data related to the Adams-Novikov spectral sequence at p=3
+# Adams-Novikov charts and data at the prime 3
 
 This repository contains miscellaneous documentation, charts, and data related
 to [Guozhen Wang's `MinimalResolution` program](https://github.com/pouiyter/MinimalResolution),
